@@ -1,0 +1,8 @@
+<ul>
+    ${data.map(album =>
+        `<li>
+            <a href='/albums/${album.id}'>${album.name}
+            </a>
+        </li>`
+        ).join('')}
+</ul>
